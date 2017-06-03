@@ -72,7 +72,7 @@
 <div class="content container">
   <div class="post">
     <h1 class="post-title">Starting blogging with hugo and github pages</h1>
-    <span class="post-date">Jun 3, 2017 &middot; 1 minute read
+    <span class="post-date">Jun 3, 2017 &middot; 2 minute read
     </span>
     
 
@@ -98,7 +98,7 @@
 
 <p>Summarizing the above guide in simple script</p>
 
-<pre><code class="language-zsh">brew install hugo
+<pre><code class="language-bash">brew install hugo
 mkdir blog &amp;&amp; cd blog
 
 # create the site
@@ -121,11 +121,17 @@ hugo server -w --buildDrafts
 
 <h1 id="pushing-to-github-pages">Pushing to github pages</h1>
 
-<p>After you have written your first article, then it&rsquo;s time to share with the world. I chose GitHub pages - it&rsquo;s free and fairly reliable.</p>
+<p>After you have written your first article, then it&rsquo;s time to share with the world. I chose GitHub pages - it&rsquo;s free and fairly easy to do.</p>
 
-<pre><code class="language-zsh">
+<p>First step is to go on github.com and create an empty repository called <code>your-username.github.io</code>. Note that the name of the repo must have this exact format.</p>
 
-</code></pre>
+<p>Next, edit your <code>config.toml</code> file and change <code>baseURL = &quot;http://your-username.github.io/&quot;</code></p>
+
+<p>Now, follow these steps to push your hugo-generated site to this repo: <a href="http://gohugo.io/tutorials/github-pages-blog/">http://gohugo.io/tutorials/github-pages-blog/</a></p>
+
+<p>Next, go to <em><a href="http://your-username.github.io/">http://your-username.github.io/</a></em> to see your blog.</p>
+
+<p><strong>DONE!</strong> You&rsquo;re blog is live</p>
 
   </div>
   
