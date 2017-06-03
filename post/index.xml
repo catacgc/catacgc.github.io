@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Random Dev Notes</title>
+    <link>http://catacgc.github.io/post/</link>
+    <description>Recent content in Posts on Random Dev Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jun 2017 12:22:42 +0300</lastBuildDate>
+    
+	<atom:link href="http://catacgc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Starting blogging with hugo and github pages</title>
+      <link>http://catacgc.github.io/post/2017/starting-blogging-with-hugo-githubpages/</link>
+      <pubDate>Sat, 03 Jun 2017 12:22:42 +0300</pubDate>
+      
+      <guid>http://catacgc.github.io/post/2017/starting-blogging-with-hugo-githubpages/</guid>
+      <description>Why Hugo ? My requirements when starting this blog where:
+ a preview mode and support drafts good syntax highlighting good theming support  There are a lot of options out-there:
+ generate a site and host it somewhere, ideally free host the blog platform yourself (usually wordpress deployed on a hosting provider) use a hosted platform (wordpress.com, ghost, medium, postach.io, etc)  For me the first options was the best and, after less than 10 minutes of google searches and 2 minutes of experimenting according to the quickstart instructions, I&amp;rsquo;ve settled on the Hugo + Github pages combination</description>
+    </item>
+    
+  </channel>
+</rss>
